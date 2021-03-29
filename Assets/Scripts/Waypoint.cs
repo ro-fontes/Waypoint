@@ -21,8 +21,8 @@ public class Waypoint : MonoBehaviour
     //criando uma funcao para chamar a troca de posicao
     void changeLocation()
     {
-        ++i;
-        if (i == locations.Length) // Verificando se o valor incrementado é maior que a quantidade de waypoints
+        ++i; // Incrementando + 1 na variavel toda vez que entrar na funcao
+        if (i == locations.Length) // Verificando se o valor incrementado Ã© maior que a quantidade de waypoints
         {
             i  = 0; // Se for igual, recomeca a variavel de incremento
         }
